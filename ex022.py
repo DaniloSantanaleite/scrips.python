@@ -1,0 +1,7 @@
+nome = input("Digite o seu nome: ")
+print("Seu nome em Maisculo",nome.upper())
+print("Seu nome em Minusculo",nome.lower())
+quantidadeletras = nome.strip()
+print("Seu nome completo tem tantas letras",len(quantidadeletras))
+primeironome = (nome.strip()[0:6])
+print("Seu primeiro nome tem tantas letras",len(primeironome))

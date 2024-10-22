@@ -4,7 +4,8 @@ i = 0
 j = 2 
 while i < n:
  v[i] = j 
- j += 1  
+ j += 1 
+ i += 1
 
 for d in range(n):
     num = v[d]

@@ -18,6 +18,5 @@ for d in range(n):
                 primo = False 
                 break
     if primo:
-        print(num, end='(P)')
-    else:
-        print(num, end='(NP)')
+        print(num, end=' ')
+ 
